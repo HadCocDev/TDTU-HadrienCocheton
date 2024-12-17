@@ -1,0 +1,10 @@
+Attribuer une facture à un utilisateur(PUT/:id)
+En tant qu'utilisateur,
+Je veux pouvoir attribuer à un utilisateur une facture afin de pouvoir lié ces informations.
+
+Critères d'acceptation : 
+  Le systeme attribue la facture sur la base de l'id de l'utilisateur et du corps de la requête.
+  Une requête valide contient uniquement les éléments de la facture.
+  Si l'ID de l'utilisateur n'existe pas, le système renvoie une erreur 404.
+  Si les données saisies sont invalides, le systeme renvoie une erreur 400 avec un retour sur la validation.
+  La facture est visible dans la base de donnée attribué à l'utilisateur.
